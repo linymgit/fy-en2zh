@@ -1,0 +1,12 @@
+/target/
+/logs/
+/*/logs/*
+.idea
+/**/.idea
+/**/target
+target
+/**/out
+out
+/**/.settings
+*.iml
+/**/*.iml

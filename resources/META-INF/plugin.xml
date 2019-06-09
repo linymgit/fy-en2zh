@@ -1,8 +1,8 @@
 <idea-plugin>
   <id>com.forrily.en2zh.plugin.id</id>
-  <name>林益民英语翻译插件</name>
+  <name>fy-en2zh</name>
   <version>1.0</version>
-  <vendor email="xggstudio@sina.com" url="http://www.forrily.com">哈哈</vendor>
+  <vendor email="xggstudio@sina.com" url="http://www.forrily.com">林益民</vendor>
 
   <!--suppress PluginXmlValidity -->
   <description><![CDATA[
@@ -12,7 +12,7 @@
 
   <!--suppress PluginXmlValidity -->
   <change-notes><![CDATA[
-      Add change notes here.<br>
+      Add change   here.<br>
       <em>most HTML tags may be used</em>
     ]]>
   </change-notes>
@@ -31,9 +31,10 @@
   </extensions>
 
   <actions>
-    <action id="EditorBasics.EditorIllustration" class="com.lym.EditorIllustration" text="益民翻译"
-            description="翻译！！！">
+    <action id="EditorBasics.EditorIllustration" class="com.lym.EditorIllustration" text="翻译"
+            description="选中单词双击翻译">
       <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+      <mouse-shortcut keymap="fy" keystroke="Button1 Double-Click"></mouse-shortcut>
     </action>
   </actions>
 

@@ -6,8 +6,8 @@
 
   <!--suppress PluginXmlValidity -->
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      选中要翻译的单词和句子双击鼠标左键或者右键鼠标选择“翻译”菜单项，然后显示翻译结果。（翻译使用的是有道翻译api）
+      项目源码：https://github.com/linymgit/fy-en2zh.git
     ]]></description>
 
   <!--suppress PluginXmlValidity -->

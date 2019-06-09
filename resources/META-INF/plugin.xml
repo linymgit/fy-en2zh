@@ -6,7 +6,7 @@
 
   <!--suppress PluginXmlValidity -->
   <description><![CDATA[
-      选中要翻译的单词和句子双击鼠标左键或者右键鼠标选择“翻译”菜单项，然后显示翻译结果。（翻译使用的是有道翻译api）
+      选中要翻译的单词和句子按着Ctrl鼠标滚轮向下滑动或者右键鼠标选择“翻译”菜单项，然后显示翻译结果。（翻译使用的是有道翻译api）
       项目源码：https://github.com/linymgit/fy-en2zh.git
     ]]></description>
 
@@ -31,10 +31,10 @@
   </extensions>
 
   <actions>
-    <action id="EditorBasics.EditorIllustration" class="com.lym.EditorIllustration" text="翻译"
-            description="选中单词双击翻译">
+    <action id="com.lym.EditorIllustrationId" class="com.lym.EditorIllustration" text="翻译"
+            description="选中单词点击翻译">
       <add-to-group group-id="EditorPopupMenu" anchor="last"/>
-      <mouse-shortcut keymap="fy" keystroke="Button1 Double-Click"></mouse-shortcut>
+      <mouse-shortcut keymap="fy" keystroke="Ctrl+Wheel down"></mouse-shortcut>
     </action>
   </actions>
 
